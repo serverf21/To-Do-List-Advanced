@@ -2,13 +2,14 @@
 /* style for body */
 body{
     margin: 0;
-    font-family: sans-serif;
-    background-color: rgb(85, 2, 85);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(41, 76, 116);
 }
 /* style for single task div container */
 
 .singleTask{
-    border: 1px solid white;
+    border: 1px solid rgb(2, 25, 37);
+    border-radius: 10px;
     width: 50%;
     height: 90px;
     color: white;
@@ -21,11 +22,12 @@ body{
 /* style for del check */
 .delechack{
     margin: 15px;
-
+    border-radius: 20%;
 }
 /* style for category section */
 
 .catesec{
+    border-radius: 20%;
     border: 1px solid black;
     background-color: chartreuse;
 }
